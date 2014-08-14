@@ -1,0 +1,46 @@
+#cart{
+    width: 100%;
+    margin: 10px 0;
+    background: #5cb4e6;
+}
+
+#cart th,#cart td{
+    background: #ffffff;
+    height: 25px;
+    line-height: 25px;
+}
+
+#cart th.th{
+    width: 65px;
+}
+
+#cart td{
+    text-align: center;
+}
+
+#cart td.price{
+    color: #ff0000;
+}
+
+p strong.price{
+    font-size: 20px;
+    color: #ff0000;
+}
+
+p{
+    text-align: right;
+    padding: 10px;
+}
+
+p img{
+    border: none;
+}
+
+input.small{
+    width: 30px;
+    border: 1px solid #999999;
+    background: #ffffff;
+    color: #666;
+    text-align: center;
+    font-weight: bold;
+}

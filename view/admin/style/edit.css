@@ -1,0 +1,21 @@
+dl.form span.middle {
+    vertical-align: 250px;
+}
+
+dl.form input.text {
+    width: 200px;
+}
+
+dl.form select {
+    width: 202px;
+}
+
+dl.form textarea {
+    width:  90%;
+    height: 500px;
+}
+
+dl.form input.submit {
+    margin: 0 0 0 58px;
+    padding: 2px 0;
+}

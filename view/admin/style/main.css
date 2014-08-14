@@ -1,0 +1,11 @@
+body {
+    background: #ddeef2;
+}
+
+table{
+    margin: 0 0 10px 0;
+}
+
+td{
+    width: 25%;
+}

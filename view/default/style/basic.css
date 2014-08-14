@@ -1,0 +1,170 @@
+body, p, form, h1, h2, h3, ul, li, dl, dd, dt {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+    background: #ffffff;
+    width: 996px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #026acb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    height: 60px;
+    margin: 0 0 10px 0;
+}
+
+#header h1 {
+    width: 200px;
+    height: 60px;
+    background: url("../images/logo.png") no-repeat left center;
+    text-indent: -9999px;
+    font-size: 12px;
+    float: left;
+}
+
+#header h1 a {
+    width: 200px;
+    height: 60px;
+    display: block;
+}
+
+#header div.top {
+    float: right;
+    padding: 10px 10px 0 0;
+}
+
+#header div.top img {
+    border: none;
+}
+
+#nav {
+    height: 26px;
+}
+
+#nav ul {
+    height: 26px;
+}
+
+#nav ul li {
+    height: 26px;
+    width: 82px;
+    float: left;
+    display: block;
+}
+
+#nav ul li a {
+    color: #026acb;
+    text-decoration: none;
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+    width: 78px;
+    display: block;
+    background: url("../images/nav_bg.png") no-repeat left center;
+}
+
+#nav ul li a:hover {
+    background-position: right;
+    color: #ffffff;
+}
+
+#nav ul li a.strong {
+    background-position: right;
+    color: #ffffff;
+}
+
+#search {
+    height: 28px;
+    border: 1px solid #5cb4e6;
+    background: url("../images/search_bgline.png");
+    padding: 8px 0 0 530px;
+}
+
+#search a{
+    color: #FFFFFF;
+}
+
+
+#page {
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
+
+#page a {
+    color: #335b64;
+    border: 1px solid #666;
+    padding: 2px 5px;
+    margin: 0 2px;
+    text-decoration: none;
+}
+
+#page a:hover, #page span.me {
+    color: #ffffff;
+    border: 1px solid #335b64;
+    background: #335b64;
+    text-decoration: none;
+}
+
+#page span.disabled {
+    border: 1px solid #ccc;
+    padding: 2px 5px;
+    margin: 0 2px;
+    color: #cccccc;
+}
+
+#page span.me {
+    padding: 2px 5px;
+    margin: 0 2px;
+}
+
+#page select.select {
+    width: 120px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+#page select.select optgroup {
+    font-style: normal;
+}
+
+#sait {
+    height: 36px;
+    line-height: 36px;
+    background: url("../images/sait_bg.png");
+    border: 1px solid #c5e4ff;
+    border-top: none;
+    color: #333;
+    padding: 0 0 0 15px;
+}
+
+#footer {
+    width: 998px;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    color: #666;
+}
+
+#footer p {
+    padding: 2px;
+}
+
+
+
+

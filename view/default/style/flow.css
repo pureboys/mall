@@ -1,0 +1,74 @@
+.cart{
+    width: 100%;
+    margin: 10px 0;
+    background: #5cb4e6;
+}
+
+.cart caption{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #5cb4e6;
+}
+
+.cart th,.cart td{
+    background: #ffffff;
+    height: 25px;
+    line-height: 25px;
+}
+
+.cart th.th{
+    width: 65px;
+}
+
+.cart td{
+    text-align: center;
+}
+
+.cart td.left{
+    text-align: left;
+}
+
+.cart td.left textarea{
+    width: 350px;
+    height: 80px;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+    margin:6px 0 0 0;
+}
+
+
+.cart td.price{
+    color: #ff0000;
+}
+
+p strong.price{
+    font-size: 20px;
+    color: #ff0000;
+}
+
+p{
+    text-align: right;
+    padding: 10px;
+}
+
+p img{
+    border: none;
+}
+
+input.small{
+    width: 30px;
+    border: 1px solid #999999;
+    background: #ffffff;
+    color: #666;
+    text-align: center;
+    font-weight: bold;
+}
+
+input.submit{
+    width: 145px;
+    height: 40px;
+    background: url("../images/order.gif") no-repeat;
+    border: none;
+    cursor: pointer;
+}

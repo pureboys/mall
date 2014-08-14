@@ -1,0 +1,6 @@
+#<IfModule mod_rewrite.c>
+#    RewriteEngine on
+#    RewriteRule index.html$ index.php
+#    RewriteRule list_([0-9]*).html$ ?a=list&navid=$1
+#    RewriteRule details_([0-9]*)_([0-9]*).html$ ?a=details&navid=$1&goodsid=$2
+#</IfModule>

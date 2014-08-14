@@ -1,0 +1,99 @@
+#header {
+    color: #ffffff;
+    height: 80px;
+    background: #278296 url("../images/alogo.png") no-repeat left top;
+}
+
+#header p {
+    height: 53px;
+    line-height: 53px;
+    text-align: right;
+    padding: 0 20px 0 0;
+}
+
+#header p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#header p a:hover {
+    text-decoration: underline;
+}
+
+#header ul {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    height: 25px;
+    line-height: 25px;
+    background: #80bdcb;
+    padding: 0 0 0 50px;
+}
+
+#header ul li {
+    width: 120px;
+    text-align: center;
+    border-right: 1px solid #333;
+    float: left;
+}
+
+#header ul li.first {
+    border-left: 1px solid #333333;
+}
+
+#header ul li a {
+    color: #335b64;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: #9ccbd6;
+}
+
+#header ul li a:hover {
+    color: #000;
+    background: #80bdcb;
+}
+
+#sidebar {
+    width: 200px;
+    background: #278296;
+    float: left;
+}
+
+#sidebar dl {
+    background: #ffffff;
+    border: 1px solid #333333;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#sidebar dl dt {
+    color: #335b64;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    background: url("../images/nav1.gif") no-repeat left 5px;
+    padding: 0 0 0 15px;
+}
+
+#sidebar dl dd {
+    height: 20px;
+    line-height: 20px;
+    background: url("../images/nav2.gif") no-repeat 15px 5px;
+    padding: 0 0 0 30px;
+}
+
+#sidebar dl dd a {
+    color: #335b64;
+    text-decoration: none;
+}
+
+#main {
+    float: right;
+}
+
+#main iframe {
+    width: 99.5%;
+    height: 99.5%;
+}

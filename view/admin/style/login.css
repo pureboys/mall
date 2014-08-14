@@ -1,0 +1,43 @@
+body {
+    background: #278296;
+}
+
+#login {
+    width: 450px;
+    height: 256px;
+    background: url("../images/login.png") no-repeat left center;
+    margin: 120px auto 0 auto;
+}
+
+#login dl {
+    width: 250px;
+    margin: 0 0 0 auto;
+    padding: 50px 0 0 0;
+    color: #ffffff;
+}
+
+#login dl dd {
+    margin: 4px 0;
+}
+
+#login dl dd input.text {
+    width: 143px;
+}
+
+#login dl dd input.submit {
+    width: 190px;
+    height: 22px;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#login dl dd.code {
+    padding: 0 0 0 42px;
+}
+
+#login dl dd.code img {
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+}

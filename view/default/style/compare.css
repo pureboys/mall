@@ -1,0 +1,202 @@
+#sidebar {
+    width: 200px;
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+#sidebar h2 {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 0 0 25px;
+    background: url("../images/h2_bg.png") no-repeat left center;
+    font-size: 12px;
+    color: #56a5ee;
+}
+
+#sidebar ul {
+    border: 1px solid #c5e4ff;
+    border-top: none;
+    padding: 10px 10px 10px 30px;
+    margin: 0 0 10px 0;
+}
+
+#sidebar ul li {
+    height: 19px;
+    line-height: 19px;
+    background: url("../images/sidebar_line.png") no-repeat left center;
+    padding: 0 0 0 25px;
+}
+
+#sidebar ul li a {
+    color: #369;
+    text-decoration: none;
+}
+
+#sidebar ul li a span.gray {
+    color: gray;
+}
+
+#sidebar ul li a:hover {
+    color: #c30;
+    text-decoration: underline;
+}
+
+#sidebar div {
+    border: 1px solid #c5e4ff;
+    border-top: none;
+    margin: 0 0 10px 0;
+}
+
+#sidebar div dl {
+    color: #666;
+    padding: 10px;
+    border-top: 1px dashed #cccccc;
+}
+
+#sidebar div dl dt img {
+    display: block;
+    border: 1px solid #cccccc;
+    margin: 0 auto;
+}
+
+#sidebar div dl dd {
+    padding: 5px 0 0 0;
+}
+
+#sidebar div dl dd.price {
+    font-size: 14px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-align: center;
+}
+
+#sidebar div dl dd.title {
+    padding: 5px 0 0 5px;
+}
+
+#sidebar div dl dd.title a {
+    color: #666;
+}
+
+#sidebar div p {
+    text-align: right;
+    padding: 0 15px 10px 0;
+}
+
+#main {
+    width: 785px;
+    float: right;
+    margin: 10px 0 0 0;
+}
+
+#main h2 {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 0 0 25px;
+    background: url("../images/list_h2_bg.png") no-repeat left center;
+    font-size: 12px;
+    color: #56a5ee;
+}
+
+#main div.filter, #main div.pro {
+    margin: 0 0 10px 0;
+    border: 1px solid #c5e4ff;
+    border-top: none;
+}
+
+#main div.filter p {
+    padding: 10px;
+    color: #333;
+}
+
+#main div.filter p span {
+    background: #c5e4ff;
+    padding: 5px;
+}
+
+#main div.filter p a {
+    padding: 5px;
+    text-decoration: underline;
+}
+
+#main div.filter p a:hover {
+    color: #f60;
+}
+
+#main div.pro {
+    height: auto;
+}
+
+#main div.pro img {
+    display: block;
+    border: none;
+}
+
+#main div.pro dl {
+    width: 224px;
+    float: left;
+    padding: 15px 0 0 27px;
+}
+
+#main div.pro dl dt {
+    width: 224px;
+    height: 224px;
+    border: 1px solid #c5e4ff;
+}
+
+#main div.pro dl dt img {
+    margin: 2px 0 0 2px;
+}
+
+#main div.pro dl dd {
+    padding: 8px 0 ;
+    border-bottom: 1px solid #cccccc;
+    font-size: 14px;
+    color: #369;
+}
+
+#main div.pro dl dd.price strong {
+    font-size: 16px;
+    color: #ff0000;
+    font-family: Tahoma;
+}
+
+#main div.pro dl dd.price del {
+    color: #999;
+}
+
+#main div.pro dl dd.title {
+    font-size: 14px;
+}
+
+#main div.pro dl dd.commend {
+    text-align: center;
+}
+
+#main div.pro dl dd.commend a {
+    color: maroon;
+}
+
+#main div.pro dl dd.buy {
+    text-align: center;
+    color: #369;
+}
+
+#main div.pro dl dd.buy a {
+    color: #369;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

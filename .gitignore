@@ -1,0 +1,6 @@
+.idea/
+.DS_Store
+compile/*
+cache/*
+!compile/index.html
+!cache/index.html
