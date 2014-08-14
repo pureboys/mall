@@ -31,7 +31,7 @@ CREATE TABLE `mall_address` (
   `buildings` varchar(100) DEFAULT NULL,
   `user` varchar(20) DEFAULT NULL COMMENT '//会员账号',
   `selected` tinyint(1) unsigned DEFAULT '0' COMMENT '//是否首选',
-  `flag` tinyint(1) DEFAULT NULL COMMENT '//是否江浙沪',
+  `flag` tinyint(1) DEFAULT NULL COMMENT '//是否省内',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
